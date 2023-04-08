@@ -1,0 +1,104 @@
+.offer {
+    margin-top: 70px;
+    text-align: center;
+}
+.offer__title {
+    font-size: 35px;
+    margin: 0;
+}
+.offer__desc {
+    margin: 15px;
+    font-size: 25px;
+
+}
+.offer__button{
+    font-size: 20px;
+
+}
+
+.background {
+    position: fixed;
+    background: darkgrey;
+    left: 0;
+    top: 0;
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+}
+.agreement {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 500px;
+    height: 150px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 1px gray;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+}
+
+.agreement__title {
+    margin: 0 0 15px 0;
+    font-size: 30px;
+
+}
+.agreement__desc {
+    font-size: 20px;
+
+}
+.agreement__wrapper_button{
+    display: flex;
+    justify-content: end;
+}
+.agreement__button {
+    display: block;
+    background: white;
+    border: none;
+    font-size: 18px;
+    color: green;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 0 50px;
+    width: 200px;
+}
+.agreement__button:hover {
+    background: aqua;
+}
+.agreement__form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form__input {
+    font-size: 20px;
+
+}
+.form__title {
+    align-items: center;
+}
+.form__button {
+    display: block;
+    background: white;
+    border: none;
+    font-size: 18px;
+    color: green;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 0 50px;
+    width: 200px;
+}
+.scroll_wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.scroll_wrapper__card {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid black;
+}
